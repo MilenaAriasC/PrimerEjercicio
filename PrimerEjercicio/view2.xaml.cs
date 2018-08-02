@@ -23,7 +23,7 @@ namespace PrimerEjercicio
 
         }
 
-private void btnSimular_Clicked(object sender, EventArgs e)
+         void btnSimular_Clicked(object sender, EventArgs e)
         {
             var progreso = progressNum.Progress;
             if (progreso == 1)
@@ -36,8 +36,19 @@ private void btnSimular_Clicked(object sender, EventArgs e)
             }
         }
 
-        private void searchBar_SearchButtonPressed(object sender, EventArgs e)
+         void searchBar_SearchButtonPressed(object sender, EventArgs e)
         {
+            DisplayAlert("Buscando","Buscando resultadoos","Aceptar");
+
+        }
+
+        void Handle_TextChanged(object sender, Xamarin.Forms.TextChangedEventArgs e)
+        {
+            DisplayAlert("Cambiando","Este texto esta cambiando","Aceptar");
+        }
+        void Handle_ValueChanged(object sender, Xamarin.Forms.ValueChangedEventArgs e)
+        {
+            LabCambio.Text = slider.Value.ToString();
 
         }
     }
