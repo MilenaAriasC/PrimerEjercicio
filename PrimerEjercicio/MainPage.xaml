@@ -25,7 +25,8 @@
             Text="Xamarin desarrolla aplicaciones moviles multiplataforma"
             TextColor="Aqua"
             VerticalTextAlignment="End"
-            BackgroundColor="Aquamarine"
+            BackgroundColor="Blue
+            "
             WidthRequest="200"
             HeightRequest="300"
             LineBreakMode="HeadTruncation"
