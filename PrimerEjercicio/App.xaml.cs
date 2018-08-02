@@ -11,7 +11,7 @@ namespace PrimerEjercicio
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new view2();
 		}
 
 		protected override void OnStart ()

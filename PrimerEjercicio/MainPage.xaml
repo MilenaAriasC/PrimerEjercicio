@@ -15,27 +15,17 @@
             VerticalTextAlignment="Center"
             HorizontalTextAlignment="End"
             BackgroundColor="Blue"
-            WidthRequest="200"
-            
-            
-         />
+            WidthRequest="200"/>
         <Label
             VerticalOptions="Center"
             HorizontalOptions="Center"
             Text="Xamarin desarrolla aplicaciones moviles multiplataforma"
             TextColor="Aqua"
             VerticalTextAlignment="End"
-            BackgroundColor="Blue
-            "
+            BackgroundColor="Blue"
             WidthRequest="200"
             HeightRequest="300"
-            LineBreakMode="HeadTruncation"
-            
-            
-            />
-
-
-
+            LineBreakMode="HeadTruncation"/>
 
     </StackLayout>
 
