@@ -51,5 +51,20 @@ namespace PrimerEjercicio
             LabCambio.Text = slider.Value.ToString();
 
         }
+        void stepEvent (object sender, Xamarin.Forms.ValueChangedEventArgs e)
+        {
+            lbDisplay.Text = steeper.Value.ToString();
+        }
+        void Handle_Toggled (object sender, Xamarin.Forms.ToggledEventArgs e)
+        {
+            var estsdo = this.swtEstado.IsToggled;
+            if (this.swtEstado.IsToggled)
+            {
+                DisplayAlert("Switch", "Estoy encendido", "Aceptar");
+            }else
+            {
+                DisplayAlert("Switch", "Estoy apagado", "Aceptar");
+            }
+        }
     }
 }
